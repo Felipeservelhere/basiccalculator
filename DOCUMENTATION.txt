@@ -25,65 +25,10 @@ Instale o arquivo acesse a pasta basic-calculator e abra o arquivo calculator.py
 Cronograma de Desenvolvimento
 A seguir, um cronograma detalhado para o desenvolvimento do projeto Calculadora Simples. Ele foi dividido em etapas com prazos estimados para garantir um desenvolvimento organizado e eficiente.
 
-Etapas do Desenvolvimento
-1. Planejamento Inicial
-Objetivo: Definir as funcionalidades, arquitetura do código e objetivos do projeto.
-Tarefas:
-Decidir as operações matemáticas que a calculadora irá suportar.
-Planejar a estrutura de arquivos e organização do código.
-Criar o repositório no GitHub e configurar o ambiente de desenvolvimento.
-Prazo: Dia 1
-2. Configuração do Ambiente
-Objetivo: Preparar o ambiente de desenvolvimento com as ferramentas necessárias.
-Tarefas:
-Instalar o Python, caso não esteja instalado.
-Criar o repositório no GitHub e realizar a primeira configuração do Git.
-Prazo: Dia 1
-3. Desenvolvimento da Lógica da Calculadora
-Objetivo: Implementar a lógica de cálculos (adição, subtração, multiplicação e divisão).
-Tarefas:
-Escrever as funções para cada operação matemática.
-Testar a lógica de cada operação.
-Prazo: Dia 2
-4. Implementação da Interface (Opcional)
-Objetivo: Criar uma interface gráfica para a calculadora utilizando Tkinter (caso seja desejado).
-Tarefas:
-Desenvolver a interface de entrada de dados e exibição de resultados.
-Integrar a interface gráfica com a lógica de cálculos.
-Prazo: Dia 3
-5. Testes Funcionais
-Objetivo: Garantir que a calculadora está funcionando corretamente.
-Tarefas:
-Realizar testes para todas as operações (adição, subtração, multiplicação e divisão).
-Corrigir quaisquer erros ou inconsistências.
-Prazo: Dia 4
-6. Documentação
-Objetivo: Escrever a documentação do projeto, explicando as funcionalidades e o processo de desenvolvimento.
-Tarefas:
-Criar o arquivo README.md com instruções de uso.
-Documentar o código-fonte, explicando cada parte do processo.
-Prazo: Dia 5
-7. Versionamento e Commits
-Objetivo: Adicionar o código ao repositório GitHub, mantendo um histórico claro de alterações.
-Tarefas:
-Realizar commits frequentes e descritivos.
-Fazer o push do código para o GitHub.
-Prazo: Durante o desenvolvimento
-8. Ajustes Finais
-Objetivo: Refatorar o código e corrigir pequenos detalhes.
-Tarefas:
-Melhorar a estrutura do código, caso necessário.
-Verificar se todas as funcionalidades estão otimizadas.
-Prazo: Dia 6
-9. Preparação para Apresentação
-Objetivo: Criar a apresentação para mostrar o projeto.
-Tarefas:
-Criar slides explicando o objetivo do projeto, funcionalidades e uso do Git.
-Preparar screenshots da interface ou trechos de código.
-Prazo: Dia 7
-10. Envio do Projeto
-Objetivo: Submeter o projeto final.
-Tarefas:
-Enviar o link do repositório GitHub.
-Enviar os slides da apresentação.
-Prazo: Dia 7
+## Cronograma de Desenvolvimento
+
+- **Planejamento**: 27/11/2024 - 28/11/2024
+- **Desenvolvimento da interface**: 29/11/2024 - 30/11/2024
+- **Lógica de operações matemáticas**: 01/12/2024 - 02/12/2024
+- **Integração e Testes**: 03/12/2024 - 04/12/2024
+- **Documentação e Preparação para o envio**: 05/12/2024 - 06/12/2024
