@@ -1,3 +1,9 @@
+import sys
+
+if sys.version_info[0] < 3:
+    print("Este projeto requer o Python 3 ou superior. Por favor, instale a versão mais recente do Python.")
+    sys.exit()
+
 import tkinter as tk
 
 # Funções para realizar as operações
