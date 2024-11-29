@@ -14,8 +14,8 @@ O objetivo deste projeto é criar uma calculadora simples que possa realizar as 
 ## Como Funciona
 
 1. O usuário deve executar o arquivo `calculator.py`.
-2. A aplicação solicita ao usuário que escolha a operação desejada (adição, subtração, multiplicação ou divisão).
-3. Após a escolha da operação, o programa solicita os dois números para realizar a operação matemática.
+2. escolha os número, o programa solicita os dois números para realizar a operação matemática.
+2. Após a escolha dos número, o programa solicita ao usuário que escolha a operação desejada (adição, subtração, multiplicação ou divisão).
 4. O resultado da operação é então exibido na tela.
 
 ## Como Rodar
