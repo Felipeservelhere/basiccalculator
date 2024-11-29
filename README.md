@@ -1,4 +1,23 @@
-# Calculadora Simples
+import os
+import subprocess
+import platform
+
+readme_path = "README.md"
+
+def open_readme():
+    if platform.system() == "Windows":
+        # Comando para abrir o arquivo no Bloco de Notas no Windows
+        subprocess.run(["notepad.exe", readme_path])
+    elif platform.system() == "Darwin":
+        # Para MacOS, pode-se usar TextEdit ou outro editor
+        subprocess.run(["open", "-a", "TextEdit", readme_path])
+    else:
+        # Para Linux ou outras plataformas, usa-se o comando de editor de texto padrão
+        subprocess.run(["xdg-open", readme_path])
+
+open_readme()
+
+
 
 Este é um projeto de uma calculadora simples que realiza as operações matemáticas básicas: adição, subtração, multiplicação e divisão.
 
