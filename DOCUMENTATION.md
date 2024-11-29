@@ -1,19 +1,23 @@
-# Documentação do Processo de Desenvolvimento
+# Documentação do Projeto: Calculadora Simples
 
-## Desafios
-1. Garantir que o programa lidasse com entradas inválidas, como caracteres não numéricos.
-2. Tratar o erro de divisão por zero de forma apropriada.
+## Objetivo
 
-## Como o Git foi Utilizado
-- **Branches**: Cada funcionalidade (operação) foi desenvolvida em uma branch separada:
-  - `feature/addition`
-  - `feature/subtraction`
-  - `feature/multiplication`
-  - `feature/division`
-- **Commits**: Commits frequentes documentaram o progresso de cada etapa.
-- **Merge**: Após concluir e testar cada funcionalidade, ela foi integrada à branch principal (`main`).
+O objetivo deste projeto é criar uma calculadora simples que possa realizar as operações matemáticas básicas: adição, subtração, multiplicação e divisão.
 
-## Comandos Úteis do Git Utilizados
-- `git branch feature/<funcionalidade>`: Criar branches para cada funcionalidade.
-- `git merge`: Integrar funcionalidades na branch principal.
-- `git log`: Visualizar o histórico de commits.
+## Funcionalidades
+
+- **Adição**: Realiza a soma de dois números.
+- **Subtração**: Realiza a subtração de dois números.
+- **Multiplicação**: Realiza a multiplicação de dois números.
+- **Divisão**: Realiza a divisão de dois números, com verificação de divisão por zero.
+
+## Como Funciona
+
+1. O usuário deve executar o arquivo `calculator.py`.
+2. A aplicação solicita ao usuário que escolha a operação desejada (adição, subtração, multiplicação ou divisão).
+3. Após a escolha da operação, o programa solicita os dois números para realizar a operação matemática.
+4. O resultado da operação é então exibido na tela.
+
+## Como Rodar
+
+Instale o arquivo acesse a pasta basic-calculator e abra o arquivo calculator.py com o Python

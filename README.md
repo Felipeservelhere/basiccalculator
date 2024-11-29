@@ -1,20 +1,7 @@
 # Calculadora Simples
 
-## Descrição
-Este é um projeto básico de calculadora que faz operações simples como soma, subtração, multiplicação e divisão. Tudo funciona no terminal.
+Este é um projeto de uma calculadora simples que realiza as operações matemáticas básicas: adição, subtração, multiplicação e divisão.
 
-## Funcionalidades
-- Soma
-- Subtração
-- Multiplicação
-- Divisão (com aviso para divisão por zero)
+## Como Usar
 
-## Como usar
-1. Execute o programa no terminal.
-2. Escolha uma operação.
-3. Insira os números e veja o resultado.
-
-## Etapas
-1. Criar o repositório e a estrutura.
-2. Programar as operações.
-3. Testar e corrigir erros.
+Instale o arquivo acesse a pasta basic-calculator e abra o arquivo calculator.py com o Python

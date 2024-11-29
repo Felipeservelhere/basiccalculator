@@ -1,50 +1,61 @@
-def add(a, b):
-    return a + b
+import tkinter as tk
 
-def subtract(a, b):
-    return a - b
+# Funções para realizar as operações
+def add():
+    result_var.set(float(entry1.get()) + float(entry2.get()))
 
-def multiply(a, b):
-    return a * b
+def subtract():
+    result_var.set(float(entry1.get()) - float(entry2.get()))
 
-def divide(a, b):
-    if b != 0:
-        return a / b
-    else:
-        return "Erro: Divisão por zero!"
+def multiply():
+    result_var.set(float(entry1.get()) * float(entry2.get()))
 
-def main():
-    print("Bem-vindo à Calculadora Básica!")
-    print("Operações disponíveis:")
-    print("1. Adição (+)")
-    print("2. Subtração (-)")
-    print("3. Multiplicação (*)")
-    print("4. Divisão (/)")
-    
-    while True:
-        try:
-            operation = input("\nEscolha a operação (1/2/3/4 ou 'sair' para encerrar): ").strip().lower()
-            if operation == 'sair':
-                print("Encerrando a calculadora. Até mais!")
-                break
+def divide():
+    try:
+        result_var.set(float(entry1.get()) / float(entry2.get()))
+    except ZeroDivisionError:
+        result_var.set("Erro: Divisão por zero")
 
-            if operation not in ['1', '2', '3', '4']:
-                print("Operação inválida! Tente novamente.")
-                continue
-            
-            num1 = float(input("Digite o primeiro número: "))
-            num2 = float(input("Digite o segundo número: "))
+# Configuração da janela principal
+root = tk.Tk()
+root.title("Calculadora Simples")
 
-            if operation == '1':
-                print(f"Resultado: {add(num1, num2)}")
-            elif operation == '2':
-                print(f"Resultado: {subtract(num1, num2)}")
-            elif operation == '3':
-                print(f"Resultado: {multiply(num1, num2)}")
-            elif operation == '4':
-                print(f"Resultado: {divide(num1, num2)}")
-        except ValueError:
-            print("Entrada inválida! Certifique-se de digitar números.")
-            
-if __name__ == "__main__":
-    main()
+# Criando os elementos da interface
+label1 = tk.Label(root, text="Digite o primeiro número:")
+label1.pack()
+
+entry1 = tk.Entry(root)
+entry1.pack()
+
+label2 = tk.Label(root, text="Digite o segundo número:")
+label2.pack()
+
+entry2 = tk.Entry(root)
+entry2.pack()
+
+# Variável para exibir o resultado
+result_var = tk.StringVar()
+
+# Exibindo o resultado
+label_result = tk.Label(root, text="Resultado:")
+label_result.pack()
+
+result_label = tk.Label(root, textvariable=result_var)
+result_label.pack()
+
+# Botões para as operações
+button_add = tk.Button(root, text="Soma", command=add)
+button_add.pack()
+
+button_subtract = tk.Button(root, text="Subtração", command=subtract)
+button_subtract.pack()
+
+button_multiply = tk.Button(root, text="Multiplicação", command=multiply)
+button_multiply.pack()
+
+button_divide = tk.Button(root, text="Divisão", command=divide)
+button_divide.pack()
+
+# Iniciando a interface gráfica
+root.mainloop()
+
